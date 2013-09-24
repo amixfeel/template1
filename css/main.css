@@ -1,0 +1,382 @@
+html {
+	background: url(../img/bg.png);
+}
+
+body {
+	max-width: 1280px;
+	min-width: 480px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+.wrap-header {
+	width: 100%;
+	height: 800px;
+	background: url(../img/header-bg.jpg);
+}
+
+	.header {
+		max-width: 960px;
+		min-width: 480px;
+		height: 800px;
+		position: relative;
+		margin: 0 auto;
+		padding-top: 1px;
+	}
+
+		.logo {
+			width: 273px;
+			height: 273px;
+			background: url(../img/logo.png);
+			position: absolute;
+			top: 67px;
+			left: 50%;
+			margin-left: -136.5px; 
+		}
+
+		.motto {
+			width: 100%;
+			margin-top: 410px;
+			text-align: center;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 49.35px;
+			font-weight: 300;
+			color: white;
+		}
+
+		.motto span {
+			font-weight: 600;
+		}
+
+		#zip-form {
+			width: 334px;
+			height: 334px;
+			background: white;
+			position: absolute;
+			left: 50%;
+			margin-left: -167px;
+			bottom: -114px;
+			box-shadow: 0 0 2px #c4c4c4;
+			border-radius: 3px;
+			text-align: center;
+		}
+
+			#zip-form input[type="text"] {
+				width: 250px;
+				height: 35px;
+				margin: 30px 33px 23px 33px;
+				border: 1px solid #e5e5e5;
+				border-top: 2px solid #e5e5e5;
+				border-radius: 3px;
+				padding-left: 16px;
+				-moz-box-sizing: border-box;
+				box-sizing: border;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 15.35px;
+				font-weight: 300;
+			}
+
+			#zip-form ul {
+				padding: 0;
+				list-style: none;
+				letter-spacing: -1px;
+				font-size: 0;
+			}
+
+			#zip-form li {
+				display: inline-block;
+				padding: 0;
+				margin: 0;
+			}
+
+			#zip-form li img {
+				display: block;
+			}
+
+			#zip-form div {
+				margin-top: 27px;
+				text-align: center;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 300;
+				font-size: 15px;
+				color: #938e8e;
+			}
+
+			#zip-form input[type="submit"] {
+				width: 192px;
+				height: 45px;
+				background: #227dd3;
+				border-radius: 2px;
+				border: 0;
+				margin-top: 15px;
+
+				font-family: 'Open Sans', sans-serif;
+				font-size: 26px;
+				font-weight: 400;
+				color: white;
+				text-transform: uppercase;
+			}
+
+.features {
+	max-width: 960px;
+	min-width: 480px;
+	height: 400px;
+	background: white;
+	margin: 0 auto;
+	padding-top: 1px;
+}
+	
+	.features ul {
+		margin-top: 170px;
+		list-style: none;
+		padding: 0;
+	}
+
+	.features li {
+		display: inline-block;
+		width: 400px;
+		position: relative;
+		min-height: 120px;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin-left: 70px;
+	}
+
+	.features .icon {
+		width: 95px;
+		height: 120px;
+		float: left;
+		margin-right: 27px;
+	}
+
+	.one-i {
+		background: url(../img/icon-1.jpg);
+	}
+
+	.two-i {
+		background: url(../img/icon-2.jpg);
+	}
+
+	.features .title {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 27.35px;
+		margin-left: 130px;
+	}
+
+	.features .description {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 14px;
+		color: #4f4e4e;
+		line-height: 26px;
+	}
+
+.wrap-info {
+	width: 100%;
+	background: #5fc18b;
+}
+
+.info {
+	max-width: 960px;
+	min-width: 480px;
+	margin: 0 auto;
+	padding-bottom: 320px;
+	overflow: auto;
+	font-family: 'Open Sans',sans-serif;
+	color: white;
+}
+	
+	.info img {
+		display: block;
+		position: absolute;
+		width: 458px;
+		height: 462px;
+		margin-top: 85px;
+		left: 24%;
+		z-index: 0;
+	}
+
+	.info h1 {
+		position: relative;
+		margin-top: 270px;
+		text-align: center;
+		font-weight: 400;
+		font-size: 40px;
+		z-index: 2
+	}
+	
+	.info-text {
+		position: relative;
+		max-width: 645px;
+		min-width: 480px;
+		margin: 0 auto;
+		font-weight: 300;
+		font-size: 14px;
+		z-index: 19;
+	}
+
+.download {
+	position: relative;
+	width: 100%;
+	background: #44a36f;
+	padding-bottom: 130px;
+}
+
+	.line {
+		max-width: 1280px;
+		min-width: 480px;
+		height: 335px;
+		margin-top: -335px;
+		background: url(../img/download-bg.png);
+		z-index: 2
+	}
+
+	.download-info {
+		position: relative;
+		max-width: 840px;
+		min-width: 480px;
+		margin: 30px auto 0 auto;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding-left: 330px;
+		font-family: 'Open Sans',sans-serif;
+		color: white;
+	}
+
+	.download-info img {
+		display: block;
+		width: 505px;
+		height: 403px;
+		position: absolute;
+		left: -220px;
+		top: 0;
+	}
+
+	.download-info h1 {
+		font-weight: 400;
+		font-size: 40px;
+	}
+
+	.download-info p {
+		max-width: 500px;
+		min-width: 480px;
+		font-weight: 300;
+		font-size: 14px;
+	}
+
+	.download-btn {
+		width: 195px;
+		height: 50px;
+		background: #44a36f;
+		border: 3px solid white;
+		border-radius: 5px;
+
+		font-family: 'Open Sans',sans-serif;
+		font-weight: 400;
+		font-size: 28px;
+		color: white;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding-left: 33px;
+		padding-right: 33px;
+		padding-top: 3px;
+	}
+
+	.download-btn {
+		cursor: pointer;
+	}
+
+.map {
+	width: 100%;
+	height: 635px;
+	position: relative;
+	background: url(../img/map.jpg);
+}
+
+	#contact-form {
+		width: 430px;
+		height: 430px;
+		background: rgba(255,255,255,.8);
+		position: absolute;
+		top: 160px;
+		left: 50%;
+		margin-left: -215px;
+		box-shadow: 0 0 5px #d8d7d5;
+		border-radius: 50%;
+	}
+
+	input[name="name"], input[name="email"], textarea[name="message"] {
+		position: absolute;
+		width: 275px;
+		left: 50%;
+		margin-left: -136px;
+		border: 2px solid #e5e5e5;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding-left: 15px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 14px;
+	}
+	input[name="name"] {
+		height: 31px;
+		top: 110px;
+	}
+
+	input[name="email"] {
+		height: 31px;
+		top:157px;
+	}
+
+	textarea[name="message"] {
+		width: 275px;
+		top: 203px;
+		height: 80px;	
+	}
+	
+	#contact-form input[type="submit"] {
+		width: 66px;
+		height: 66px;
+		background: url(../img/ok-icon.png);
+		border: 0;
+		border-radius: 50%;
+		position: absolute;
+		top: 315px;
+		left: 50%;
+		margin-left: -33px;
+	}
+
+.footer {
+	height: 47px;
+	background: #43a06d;
+	text-align: center;
+}
+
+	.footer span {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		font-weight: 300;
+		color: white;
+		line-height: 47px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
